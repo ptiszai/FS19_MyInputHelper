@@ -46,9 +46,9 @@ vehicle events: HelperControl:onRegisterActionEvents(...)<br>
 
 #### Logitech panel designe:
 
-![](https://github.com/ptiszai/NUCLEO-H743ZI-expanded-2-cards/blob/main/AnalogIn_Expanded/AnalogInExpandedPCB.png)
+![](https://github.com/ptiszai/)
 
 
 #### FS19 mod started
-![](https://github.com/ptiszai/NUCLEO-H743ZI-expanded-2-cards/blob/main/AnalogIn_Expanded/AnalogInCard.jpg)
+![](https://github.com/ptiszai/)
 
