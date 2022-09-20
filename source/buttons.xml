@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<buttons>
+    <button1 text="pressing 1. button" message="pressed 1." image="lilaGomb.dds"/>
+    <button2 text="pressing 2. button" message="pressed 2." image="lilaGomb.dds"/>
+    <button3 text="pressing 3. button" message="pressed 3." image="lilaGomb.dds"/>
+    <button4 text="pressing 4. button" message="pressed 4." image="nsargaGomb.dds"/>
+    <button5 text="pressing 5. button" message="pressed 5." image="nsargaGomb.dds"/>
+    <button6 text="pressing 6. button" message="pressed 6." image="lilaGomb.dds"/>
+    <button7 text="pressing 7. button" message="pressed 7." image="lilaGomb.dds"/>
+    <button8 text="pressing 8. button" message="pressed 8." image="lilaGomb.dds"/>
+    <button9 text="pressing 9. button" message="pressed 9." image="nsargaGomb.dds"/>
+    <button10 text="pressing 10. button" message="pressed 10." image="nsargaGomb.dds"/>
+    <button11 text="pressing 11. button" message="pressed 11." image="sargaGomb.dds"/>
+    <button12 text="pressing 12. button" message="pressed 12." image="sargaGomb.dds"/>
+    <button13 text="pressing 13. button" message="pressed 13." image="sargaGomb.dds"/>
+    <button14 text="pressing 14. button" message="pressed 14." image="sargaGomb.dds"/>
+    <button15 text="pressing 15. button" message="pressed 15." image="sargaGomb.dds"/>
+    <button16 text="pressing 16. button" message="pressed 16." image="sargaGomb.dds"/>
+    <button17 text="pressing 17. button" message="pressed 17." image="kekGomb.dds"/>
+    <button18 text="pressing 18. button" message="pressed 18." image="kekGomb.dds"/>
+    <button19 text="pressing 19. button" message="pressed 19." image="zoldGomb.dds"/>
+    <button20 text="pressing 20. button" message="pressed 20." image="zoldGomb.dds"/>
+    <button21 text="pressing 21. button" message="pressed 21." image="duda.dds"/>
+    <button22 text="pressing 22. button" message="pressed 22." image="22Gomb.dds"/>
+    <button23 text="pressing 23. button" message="pressed 23." image="23Gomb.dds"/>
+    <button24 text="pressing 24. button" message="pressed 24." image="24Gomb.dds"/>
+    <button25 text="pressing 25. button" message="pressed 25."  image="gorgeto.dds"/>
+    <button26 text="pressing 28. button" message="pressed 28." image="motorStart.dds"/>
+</buttons>

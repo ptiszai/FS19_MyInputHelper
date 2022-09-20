@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="53">
+	<author>tiszai</author>
+	<title>
+		<en>My Input Helper</en>
+	</title>
+	<description>
+		<en>![CDATA[This script is a new info helper, key F1, for the HEAVY EQUIPMENT SIDE PANEL from the Logitech.
+https://www.logitechg.com/en-us/products/farm/farm-simulator-game-bundle.945-000063.html#product-tech-specs
+The scipt overwrite, modifíed, the InputHelper class of FS19.
+
+All functions are switchable with the following default key and button combinations:
+Pressed key or button, than watch the messsge 3 sec on the center of display.
+Button of panel (x) -- key of keyboard [y]
+Player events: HelperControl:registerActionEventsPlayer()
+(1)--[1]: message
+(2)--[2]: message
+(3)--[3]: message
+(4)--[4]: message
+(5)--[5]: message
+(6)--[6]: message
+(7)--[8]: message
+(9)--[9]: message
+(10)--[lshift 1]: message
+(11)--[lshift 2]: message
+(12)--[lshift 3]: message
+(13)--[lshift 4]: message
+(14)--[lshift 5]: message
+(15)--[lshift 6]: message
+(16)--[lshift 7]: message
+(17)--[lshift 8]: message
+(18)--[lshift 9]: message
+(19)--[rshift 1]: message
+(20)--[rshift 2]: message
+(21)--[rshift 3]: message
+(22)--[rshift 4]: message
+(23)--[rshift 5]: message
+(24)--[rshift 6]: message
+(25)--[rshift 7]: message
+(28)--[rshift 8]: message
+vehicle events: HelperControl:onRegisterActionEvents(...)
+(23)--[rshift 8]: message
+(26-27) scroller--[]: message -- HelperControl:actionEventCruiseControlValue(...)
+    ]]</en>
+	</description>
+	<multiplayer supported="true"/>   
+	<iconFilename>help_icon.dds</iconFilename>
+	<version>1.0.0.0</version>
+	<l10n filenamePrefix="modDesc_l10n">
+        <text name="input_TRACTORSIM_STEERING_TOGGLE">
+			<en>Steering mode change: live steering or A/D buttons</en>
+			<hu>Kormány mód váltás, kormány vagy A/D gombok </hu>
+		</text>
+	</l10n>	
+	<actions>
+<!-- event for player -->
+        <action name="HELPER_1" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>
+        <action name="HELPER_2" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>
+        <action name="HELPER_3" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>
+        <action name="HELPER_4" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>
+        <action name="HELPER_5" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>
+        <action name="HELPER_6" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>
+        <action name="HELPER_7" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>
+        <action name="HELPER_8" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>
+        <action name="HELPER_9" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>
+        <action name="HELPER_10" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>
+        <action name="HELPER_11" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>
+        <action name="HELPER_12" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>
+        <action name="HELPER_13" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>
+        <action name="HELPER_14" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>
+        <action name="HELPER_15" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>
+        <action name="HELPER_16" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>
+        <action name="HELPER_17" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>
+        <action name="HELPER_18" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>
+        <action name="HELPER_19" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>
+        <action name="HELPER_20" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>
+        <action name="HELPER_21" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>
+        <action name="HELPER_22" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>
+        <action name="HELPER_23" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>
+        <action name="HELPER_24" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>
+        <action name="HELPER_25" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>
+        <action name="HELPER_26" category="PLAYER"  axisType="HALF" ignoreComboMask="false"/>  
+<!-- event for vehicle -->
+        <action name="HELPER_30" category="VEHICLE"  axisType="HALF" ignoreComboMask="false"/>
+        <action name="HELPER_31" category="VEHICLE"  axisType="HALF" ignoreComboMask="false"/>
+	</actions>
+	<inputBinding>
+        <actionBinding action="HELPER_1" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_1" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_1" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        <actionBinding action="HELPER_2" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_2" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_2" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        <actionBinding action="HELPER_3" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_3" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_3" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        <actionBinding action="HELPER_4" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_4" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_4" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        <actionBinding action="HELPER_5" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_5" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_5" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        <actionBinding action="HELPER_6" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_6" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_6" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        <actionBinding action="HELPER_7" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_7" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_7" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        <actionBinding action="HELPER_8" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_8" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_8" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        <actionBinding action="HELPER_9" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_9" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_9" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        <actionBinding action="HELPER_10" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_1" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_10" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        <actionBinding action="HELPER_11" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_2" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_11" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        <actionBinding action="HELPER_12" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_3" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_12" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        <actionBinding action="HELPER_13" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_4" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_13" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        <actionBinding action="HELPER_14" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_5" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_14" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        <actionBinding action="HELPER_15" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_6" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_15" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        <actionBinding action="HELPER_16" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_7" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_16" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        <actionBinding action="HELPER_17" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_8" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_17" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        <actionBinding action="HELPER_18" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_9" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_18" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        <actionBinding action="HELPER_19" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_rshift KEY_1" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_19" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        <actionBinding action="HELPER_20" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_rshift KEY_2" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_20" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        <actionBinding action="HELPER_21" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_rshift KEY_3" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_21" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+       <actionBinding action="HELPER_22" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_rshift KEY_4" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_22" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+       <actionBinding action="HELPER_23" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_rshift KEY_5" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_23" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+       <actionBinding action="HELPER_24" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_rshift KEY_6" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_24" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+       <actionBinding action="HELPER_25" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_rshift KEY_7" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_25" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+       <actionBinding action="HELPER_26" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_rshift KEY_8" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_28" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+
+        <actionBinding action="HELPER_30" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_rshift KEY_8" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_23" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+        <actionBinding action="HELPER_31" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_rshift KEY_9" />
+            <binding device="0_0738-2218-0001-XFw/XEhJRCNWSURfMDczOCZQSURfMjIxOCM2JjIyMGI0NmUmMCYwMDAwI3s0ZDFlNTViMi1mMTZmLTExY2YtODhjYi0wMDExMTEwMDAwMzB9AA==" input="BUTTON_24" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+	</inputBinding>
+	
+	<extraSourceFiles>
+        <sourceFile filename="helperControl.lua"/>
+		<sourceFile filename="helperControlRegister.lua"/>
+	</extraSourceFiles>    
+</modDesc>
