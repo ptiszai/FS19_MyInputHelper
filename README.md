@@ -3,7 +3,7 @@
 ##### This script is a new info helper, key F1, for the HEAVY EQUIPMENT SIDE PANEL from the Logitech.
 
 
-![](https://github.com/ptiszai/NUCLEO-H743ZI-expanded-2-cards/blob/main/DigitIn_Expanded/DigitInExpandedCard.jpg)
+![](https://github.com/ptiszai/FS19_MyInputHelper/blob/main/doc/fsScreen2.png)
 ### Features
 Logitech
  [link to panel](https://www.logitechg.com/en-us/products/farm/farm-simulator-game-bundle.945-000063.html#product-tech-specs
@@ -46,9 +46,9 @@ vehicle events: HelperControl:onRegisterActionEvents(...)<br>
 
 #### Logitech panel designe:
 
-![](https://github.com/ptiszai/NUCLEO-H743ZI-expanded-2-cards/blob/main/AnalogIn_Expanded/AnalogInExpandedPCB.png)
+![](https://github.com/ptiszai/)
 
 
 #### FS19 mod started
-![](https://github.com/ptiszai/NUCLEO-H743ZI-expanded-2-cards/blob/main/AnalogIn_Expanded/AnalogInCard.jpg)
+![](https://github.com/ptiszai/)
 
