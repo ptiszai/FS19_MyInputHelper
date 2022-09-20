@@ -2,7 +2,6 @@
 
 ##### This script is a new info helper, key F1, for the HEAVY EQUIPMENT SIDE PANEL from the Logitech.
 
-
 ![](https://github.com/ptiszai/FS19_MyInputHelper/blob/main/doc/fsScreen2.png)
 ### Features
 Logitech
@@ -44,9 +43,8 @@ vehicle events: HelperControl:onRegisterActionEvents(...)<br>
 (26-27) scroller--[]: message -- HelperControl:actionEventCruiseControlValue(...)<br> 
 
 #### Logitech panel designe:
-
 ![](https://github.com/ptiszai/FS19_MyInputHelper/blob/main/doc/heavy-equipment-side-panel.jpg)
 
 #### FS19 mod started
-![](https://github.com/ptiszaiFS19_MyInputHelper/blob/main/doc/fsScreen1.png)
+![](https://github.com/ptiszai/FS19_MyInputHelper/blob/main/doc/fsScreen1.png)
 
