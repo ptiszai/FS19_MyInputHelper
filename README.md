@@ -1,4 +1,4 @@
-## FS19-Tractor-Simulator mod: FS19_MyInputHelper
+## Farming Simulator 19 mod: FS19_MyInputHelper
 
 ##### This script is a new info helper, key F1, for the HEAVY EQUIPMENT SIDE PANEL from the Logitech.
 
